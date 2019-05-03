@@ -67,6 +67,10 @@
  * @property {Object}  [scope=this]
  * Alias of `context`. Deprecated.
  *
+ * @property {Boolean} [async=false]
+ * Whether or not to create an async function instead of a regular function.
+ * This requires language support.
+ *
  * @static
  * @global
  */
